@@ -47,6 +47,9 @@ def deploy(deploy_type):
         BlogInfo.insert_blog_info()
         # step_2:insert admin account
         User.insert_admin(email='blog_mini@163.com', username='blog_mini', password='blog_mini')
+        User.insert_admin(email='simoncao@techblog.com', username='SimonCao', password='cjW20100424')
+        User.insert_admin(email='zhulin@techblog.com', username='ZhuaLin', password='woshijilao')
+        User.insert_admin(email='woofei@techblog.com', username='WooFei', password='woshijilao')
         # step_3:insert system default setting
         ArticleTypeSetting.insert_system_setting()
         # step_4:insert default article sources

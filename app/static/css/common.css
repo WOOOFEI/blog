@@ -2,6 +2,7 @@
 body {
     /*background: #F0F0F0;*/
     background: url('../images/background.jpg');
+    cursor: url('../images/asd.png'), default;
 }
 .blog-title a:link {
     text-decoration: none;
