@@ -2,6 +2,7 @@
 body {
     /*background: #1f2021;*/
     background: url('../images/background.jpg');
+    background-size:100% 100%;
     cursor: url('../images/asd.png'), default;
 }
 .blog-title a:link {
@@ -51,7 +52,7 @@ body {
     float: right;
 }
 .footer {
-	background: #474E5D;
+	background: #3c3c3c;
 	padding: 15px 0 5px;
 	font-size: 13px;
 }
