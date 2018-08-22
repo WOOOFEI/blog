@@ -866,8 +866,3 @@ def edit_user_info():
             return redirect(url_for('admin.account'))
 
 
-@admin.route('/help')
-@login_required
-def help():
-
-    return render_template('admin/help_page.html')
