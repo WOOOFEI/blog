@@ -16,6 +16,7 @@
     <style>
         body {
             cursor: url('../static/images/asd.png'),default;
+	    padding-top: 50px
         }
     </style>
     <link rel="icon" href="../static/images/favicon.ico" type="image/x-icon" />
@@ -23,15 +24,7 @@
 </head>
 <body>
 <header>
-    <div class='header-top'>
-        <div class="container">
-            <h2  class="blog-title"><a href="../static/images/favicon.ico"></a><a href="{{ url_for('main.index') }}">{{ BlogInfo.query.first().title }}</a></h2>
-            <p class="lead signature">
-                {{ BlogInfo.query.first().signature }}
-            </p>
-        </div>
-    </div>
-    <nav class="navbar navbar-{{ BlogInfo.query.first().navbar }}" role="navigation">
+    <nav class="navbar navbar-{{ BlogInfo.query.first().navbar }} navbar-fixed-top " role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -94,6 +87,13 @@
             </div>
         </div>
     </nav>
+    <div class='header-top'>
+        <div class="container">
+            <h2  class="blog-title"><a href="{{ url_for('main.index') }}"><B>{{ BlogInfo.query.first().title }}</B></a>&nbsp;&nbsp;<img src="../static/images/startup.png" width=30 height=30></h2>
+            <p class="lead signature">
+               <I>{{ BlogInfo.query.first().signature }}</I>
+            </p>
+        </div>
 </header>
 {% block Content %}
     <div class="content">
@@ -144,8 +144,8 @@
 {% endblock %}
 <div class="footer">
     <p class="footer-content">
-        @2018
-        <a href="#"> KB Overload</a>
+        @2018 
+        <a href="#">KB Overload</a>
     </p>
 </div>
 <div class="btn-group-vertical floatButton">

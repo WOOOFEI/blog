@@ -1,0 +1,108 @@
+[2018-08-23 09:48:49 +0800] [28622] [INFO] Starting gunicorn 19.4.5
+[2018-08-23 09:48:49 +0800] [28622] [INFO] Listening at: http://0.0.0.0:80 (28622)
+[2018-08-23 09:48:49 +0800] [28622] [INFO] Using worker: sync
+[2018-08-23 09:48:49 +0800] [28625] [INFO] Booting worker with pid: 28625
+[2018-08-23 09:48:49 +0800] [28626] [INFO] Booting worker with pid: 28626
+[2018-08-23 09:48:49 +0800] [28627] [INFO] Booting worker with pid: 28627
+[2018-08-23 09:48:49 +0800] [28628] [INFO] Booting worker with pid: 28628
+[2018-08-23 09:48:49 +0800] [28629] [INFO] Booting worker with pid: 28629
+[2018-08-23 09:48:49 +0800] [28631] [INFO] Booting worker with pid: 28631
+[2018-08-23 09:48:49 +0800] [28632] [INFO] Booting worker with pid: 28632
+[2018-08-23 09:48:49 +0800] [28633] [INFO] Booting worker with pid: 28633
+[2018-08-23 09:48:49 +0800] [28635] [INFO] Booting worker with pid: 28635
+[2018-08-23 09:48:49 +0800] [28636] [INFO] Booting worker with pid: 28636
+[2018-08-23 10:12:37 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28636)
+[2018-08-23 10:12:37 +0800] [28636] [INFO] Worker exiting (pid: 28636)
+[2018-08-23 10:12:37 +0800] [28673] [INFO] Booting worker with pid: 28673
+[2018-08-23 10:37:11 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28633)
+[2018-08-23 10:37:11 +0800] [28633] [INFO] Worker exiting (pid: 28633)
+[2018-08-23 10:37:11 +0800] [28819] [INFO] Booting worker with pid: 28819
+[2018-08-23 10:39:08 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28626)
+[2018-08-23 10:39:08 +0800] [28626] [INFO] Worker exiting (pid: 28626)
+[2018-08-23 10:39:09 +0800] [28823] [INFO] Booting worker with pid: 28823
+[2018-08-23 10:52:32 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28627)
+[2018-08-23 10:52:32 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28635)
+[2018-08-23 10:52:32 +0800] [28627] [INFO] Worker exiting (pid: 28627)
+[2018-08-23 10:52:32 +0800] [28635] [INFO] Worker exiting (pid: 28635)
+[2018-08-23 10:52:32 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28629)
+[2018-08-23 10:52:32 +0800] [28629] [INFO] Worker exiting (pid: 28629)
+[2018-08-23 10:52:32 +0800] [28840] [INFO] Booting worker with pid: 28840
+[2018-08-23 10:52:32 +0800] [28841] [INFO] Booting worker with pid: 28841
+[2018-08-23 10:52:32 +0800] [28842] [INFO] Booting worker with pid: 28842
+[2018-08-23 10:52:33 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28631)
+[2018-08-23 10:52:33 +0800] [28631] [INFO] Worker exiting (pid: 28631)
+[2018-08-23 10:52:34 +0800] [28846] [INFO] Booting worker with pid: 28846
+[2018-08-23 10:58:17 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28840)
+[2018-08-23 10:58:17 +0800] [28840] [INFO] Worker exiting (pid: 28840)
+[2018-08-23 10:58:17 +0800] [28849] [INFO] Booting worker with pid: 28849
+[2018-08-23 10:58:53 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28823)
+[2018-08-23 10:58:53 +0800] [28823] [INFO] Worker exiting (pid: 28823)
+[2018-08-23 10:58:54 +0800] [28853] [INFO] Booting worker with pid: 28853
+[2018-08-23 10:59:48 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28849)
+[2018-08-23 10:59:48 +0800] [28849] [INFO] Worker exiting (pid: 28849)
+[2018-08-23 10:59:48 +0800] [28855] [INFO] Booting worker with pid: 28855
+[2018-08-23 11:13:41 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28625)
+[2018-08-23 11:13:41 +0800] [28625] [INFO] Worker exiting (pid: 28625)
+[2018-08-23 11:13:41 +0800] [29193] [INFO] Booting worker with pid: 29193
+[2018-08-23 11:21:25 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28841)
+[2018-08-23 11:21:25 +0800] [28841] [INFO] Worker exiting (pid: 28841)
+[2018-08-23 11:21:25 +0800] [29215] [INFO] Booting worker with pid: 29215
+[2018-08-23 11:40:15 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28819)
+[2018-08-23 11:40:15 +0800] [28819] [INFO] Worker exiting (pid: 28819)
+[2018-08-23 11:40:15 +0800] [29233] [INFO] Booting worker with pid: 29233
+[2018-08-23 11:47:11 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:28846)
+[2018-08-23 11:47:11 +0800] [28846] [INFO] Worker exiting (pid: 28846)
+[2018-08-23 11:47:12 +0800] [29237] [INFO] Booting worker with pid: 29237
+[2018-08-23 11:48:52 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29237)
+[2018-08-23 11:48:52 +0800] [29237] [INFO] Worker exiting (pid: 29237)
+[2018-08-23 11:48:52 +0800] [29239] [INFO] Booting worker with pid: 29239
+[2018-08-23 12:51:21 +0800] [29339] [INFO] Booting worker with pid: 29339
+[2018-08-23 12:51:21 +0800] [29340] [INFO] Booting worker with pid: 29340
+[2018-08-23 12:51:21 +0800] [29342] [INFO] Booting worker with pid: 29342
+[2018-08-23 12:51:22 +0800] [29345] [INFO] Booting worker with pid: 29345
+[2018-08-23 12:51:22 +0800] [29346] [INFO] Booting worker with pid: 29346
+[2018-08-23 12:51:22 +0800] [29347] [INFO] Booting worker with pid: 29347
+[2018-08-23 12:51:22 +0800] [29348] [INFO] Booting worker with pid: 29348
+[2018-08-23 12:51:22 +0800] [28622] [INFO] Handling signal: hup
+[2018-08-23 12:51:22 +0800] [28622] [INFO] Hang up: Master
+[2018-08-23 12:51:22 +0800] [29349] [INFO] Booting worker with pid: 29349
+[2018-08-23 12:51:22 +0800] [29350] [INFO] Booting worker with pid: 29350
+[2018-08-23 12:51:22 +0800] [29351] [INFO] Booting worker with pid: 29351
+[2018-08-23 12:51:22 +0800] [29352] [INFO] Booting worker with pid: 29352
+[2018-08-23 12:51:22 +0800] [29354] [INFO] Booting worker with pid: 29354
+[2018-08-23 12:51:22 +0800] [29353] [INFO] Booting worker with pid: 29353
+[2018-08-23 12:51:22 +0800] [29356] [INFO] Booting worker with pid: 29356
+[2018-08-23 12:51:22 +0800] [29355] [INFO] Booting worker with pid: 29355
+[2018-08-23 12:51:22 +0800] [29358] [INFO] Booting worker with pid: 29358
+[2018-08-23 12:51:22 +0800] [29357] [INFO] Booting worker with pid: 29357
+[2018-08-23 12:51:28 +0800] [29339] [INFO] Worker exiting (pid: 29339)
+[2018-08-23 12:51:29 +0800] [29340] [INFO] Worker exiting (pid: 29340)
+[2018-08-23 12:51:29 +0800] [29342] [INFO] Worker exiting (pid: 29342)
+[2018-08-23 12:51:30 +0800] [29346] [INFO] Worker exiting (pid: 29346)
+[2018-08-23 12:51:30 +0800] [29348] [INFO] Worker exiting (pid: 29348)
+[2018-08-23 12:51:30 +0800] [29345] [INFO] Worker exiting (pid: 29345)
+[2018-08-23 12:51:30 +0800] [29347] [INFO] Worker exiting (pid: 29347)
+[2018-08-23 13:39:23 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29352)
+[2018-08-23 13:39:23 +0800] [29352] [INFO] Worker exiting (pid: 29352)
+[2018-08-23 13:39:24 +0800] [29408] [INFO] Booting worker with pid: 29408
+[2018-08-23 14:07:34 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29349)
+[2018-08-23 14:07:34 +0800] [29349] [INFO] Worker exiting (pid: 29349)
+[2018-08-23 14:07:34 +0800] [29486] [INFO] Booting worker with pid: 29486
+[2018-08-23 14:10:07 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29356)
+[2018-08-23 14:10:07 +0800] [29356] [INFO] Worker exiting (pid: 29356)
+[2018-08-23 14:10:07 +0800] [29490] [INFO] Booting worker with pid: 29490
+[2018-08-23 14:11:23 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29490)
+[2018-08-23 14:11:23 +0800] [29490] [INFO] Worker exiting (pid: 29490)
+[2018-08-23 14:11:24 +0800] [29492] [INFO] Booting worker with pid: 29492
+[2018-08-23 14:44:32 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29492)
+[2018-08-23 14:44:32 +0800] [29492] [INFO] Worker exiting (pid: 29492)
+[2018-08-23 14:44:32 +0800] [29507] [INFO] Booting worker with pid: 29507
+[2018-08-23 15:04:00 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29350)
+[2018-08-23 15:04:00 +0800] [29350] [INFO] Worker exiting (pid: 29350)
+[2018-08-23 15:04:00 +0800] [29571] [INFO] Booting worker with pid: 29571
+[2018-08-23 15:11:11 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29353)
+[2018-08-23 15:11:11 +0800] [29353] [INFO] Worker exiting (pid: 29353)
+[2018-08-23 15:11:11 +0800] [29596] [INFO] Booting worker with pid: 29596
+[2018-08-23 15:31:53 +0800] [28622] [CRITICAL] WORKER TIMEOUT (pid:29507)
+[2018-08-23 15:31:53 +0800] [29507] [INFO] Worker exiting (pid: 29507)
+[2018-08-23 15:31:53 +0800] [29663] [INFO] Booting worker with pid: 29663

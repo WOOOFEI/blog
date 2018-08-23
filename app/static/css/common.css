@@ -1,7 +1,7 @@
 /*CSS For common appearance*/
 body {
     /*background: #1f2021;*/
-    background: url('../images/background.jpg');
+    background: url('../images/background2.jpg');
     background-size:100% 100%;
     cursor: url('../images/asd.png'), default;
 }
@@ -52,13 +52,13 @@ body {
     float: right;
 }
 .footer {
-	background: #222;
+	background: #2e112d;
 	padding: 15px 0 5px;
 	font-size: 13px;
 }
 .footer-content {
     text-align: center;
-    color: #8a6d3b;
+    color: #fff;
 }
 div.pagination {
     width: 100%;
